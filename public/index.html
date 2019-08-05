@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="./public/style.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="public/js/Game.js"></script>
+  <script src="public/js/interface.js"></script>
+<head>
+<title>Bowling Caluculator</title>
+</head>
+<body>
+  <section>
+    <h1>Enter Score</h1>
+  <form id="enter-throw">
+    <label for="enter rolls">Pins hit:</label>
+    <input id="roll-one" name="roll-one" type="number" size="1" max="10" autofocus required>
+    <input id="roll-two" name="roll-two" type="number" size="1" max="10" autofocus required>
+    <input type="submit" value="Enter">
+  </form>
+  </section>
+  </body>
+  <section>
+    <h2>Current Frames Totals</h2>
+<h2 id="score_total_one"></h2>
+<h3>Should be current total</h3>
+<h2 id="score_total"></h2>
+<h2 id="showScores"></h2>
+<th><span id="showScores">TOTAL</span> SCORE: <span id="showScores"></span></th>
+</section>
+</html>
